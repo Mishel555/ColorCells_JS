@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:rgb(16, 0, 8)
+  /*rgb(161, 187, 56); another suit if you want*/
+}
+main>div:first-child {
+  width: 400px;
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+}
+label {
+  color: #859fff00;
+  font-size: 28px;
+  text-shadow: 0px 0px 5px #de5d5d;
+}
+input {
+  background-color: rgb(16, 14, 16);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  color: #d3d8ff;
+  border: none;
+  border-left: 4px solid #d3d8ff;
+  border-right: 4px solid #d3d8ff;
+}
+button#drawBtn,button#colorizeBtn,button#resetBtn {
+  background-color: #b6c94aad;
+  transition: 0.5s;
+}
+#drawBtn:hover,#colorizeBtn:hover,#resetBtn:hover{
+  box-shadow: 0px 22px 40px 0px #bdff81 inset;
+}
+.controlPanel {
+  width: 200px;
+  display: block;
+  height: auto;
+  margin:10px auto;
+}
+
+section#cellField {
+  padding-top: 15px;
+  display: flex;
+  width: 1200px;
+  height: 550px;
+  /* border: 3px solid #347328f5; */
+  margin: 80px auto;
+  flex-flow: column wrap;
+  align-content: center;
+  box-shadow: 0px 0px 25px 13px black;
+  background-color: #ff000026;
+}
+.addedCell {
+  width: 75px;
+  height: 75px;
+  align-self: stretch;
+  border: 1px solid black;
+  box-shadow: 0px 0px 21px 0px #92dbe2 inset;
+}
