@@ -54,7 +54,7 @@ function drawCells() {
             clearInterval(printCells);
             console.log('ok');
           }
-      },800)
+      },400)
     }
 
 
@@ -74,7 +74,7 @@ function colorizeCells() {
           clearInterval(paintItem);
           console.log('o#k');
         }
-      },800);
+      },400);
 }
 
 //////////////////Reset Button Part#///////////////////////////////
